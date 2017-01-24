@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { NavController } from 'ionic-angular';
+// import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -8,8 +8,14 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
-    
+  title: string = "My Page";
+
+  constructor() {
+
   }
+
+  changeTitle(title){
+    this.title = title;
+}
 
 }
