@@ -51,8 +51,8 @@ describe('Page: Home Page', () => {
 
     });
 
-    it('initialises with a title of My Page', () => {
-        expect(comp['title']).toEqual('My Page');
+    it('initialises with a title of New Page', () => {
+        expect(comp['title']).toEqual('New Page');
     });
 
     it('can set the title to a supplied value', () => {
